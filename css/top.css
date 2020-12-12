@@ -278,7 +278,9 @@ margin: 5px;
     
 }
 @media screen and (min-width:1000px) {
-    
+    .telEmail{
+        display: none;
+    }
     .navLage{
         display: block;
         width: 100%;
