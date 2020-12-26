@@ -21,8 +21,10 @@ $(document).ready(function(){
     $("#nav").click(function(){
     $(".navLong").slideToggle("slow");
     });
+    $("#weixin").click(function(){
+    $(".endweixin").slideToggle();
+    });
   });
-
   function divHeight(_widthAndPercent,divId){
     let Id =document.getElementById(divId)
     console.log(Id)
