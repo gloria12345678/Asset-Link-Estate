@@ -67,7 +67,7 @@ hr{
     width: 67px;
     right: 0px;
     z-index: 10;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 .navLage{
     display: none;
@@ -75,10 +75,11 @@ hr{
 .navLong1{
     font-size: 18px;
     margin-top: 5px;
-    width: 75px;
+    width: 77px;
     background-color: #ffffffe3;
     color: #3e3e3e;
     text-align: right;
+    padding-right: 7px;
 }
 .jumbotron{
     /* width: 100%;
@@ -175,24 +176,6 @@ hr{
     padding: 17px;
     font-size: 22px;
 }
-/* #fadeIn1{
-    display: none;
-}
-#fadeIn2{
-    display: none;
-}
-#fadeIn3{
-    display: none;
-}
-#fadeIn4{
-    display: none;
-}
-#fadeIn5{
-    display: none;
-}
-#fadeIn6{
-    display: none;
-} */
 .aaa{
     padding: 7px;
     font-size: 15px;
@@ -274,7 +257,7 @@ margin: 5px;
     float: left;
 }
 .tel99{
-    width: 49.735%;
+    width: 49.692%;
     height: 55px;
     background-color: #ffffff;;
     float: left;
@@ -285,7 +268,80 @@ margin: 5px;
     border-right:1px solid #586788;
     
 }
-@media screen and (min-width:1000px) {
+.Content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.steff{
+    width:150px;
+    height: 150px;
+    margin: 16px;
+}
+.steff1{
+    width:150px;
+    height: 150px;
+    border: #0c5686 solid 2px;
+}
+.row-single {
+    width: 98%;
+    line-height: 32px;
+    border: 1px solid #7f92bf;
+    margin:0px auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: stretch;
+    display: flex 
+    }
+.colspan-title{
+    width: 15%;
+    word-break: break-all;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #eaeaea;
+    border-right:1px solid #7f92bf;
+}
+.scale-20 {
+   float: left;
+   width: 71%;
+   height: auto;
+   float: right;
+   line-height: initial;
+   word-break: break-all;
+   padding: 10px;
+   font-size: 20px;
+   }
+.scale-down {
+   width: 160px;
+   float: left;
+   height:100%;
+   border-right:none !important;
+   }
+   .ffff{
+       width: 500px;
+       height: 150px;
+       font-size: 20px;
+       margin-left: 125px;
+       display: none;
+       color:  #0f2f61;
+   }
+   .btn{
+       width: 250px;
+       height: 70px;
+       background-color: cadetblue;
+       margin: 0px auto;
+       margin-top: 25px;
+       border-radius: 10px;
+   }
+   @media screen and (max-width:360px) {
+    .end{
+        height: 150px;/*需要调试*/
+    }
+
+   }
+@media screen and (min-width:900px) {
     .telEmail{
         display: none;
     }
@@ -303,6 +359,15 @@ margin: 5px;
     .nav{
         display: none;
     }
+    .Content{
+        margin: 0px auto;
+    }
+    .row-single {
+        width: 870px;
+        }
+        .ffff{
+            display: block;
+        }
     /* .endweixin{
         width: 240px;
         height: 240px;

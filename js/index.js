@@ -19,7 +19,7 @@ $(document).ready(function(){
     // $(".jumbotron").css({"height":winHeight+"px"})
     $("#logo").fadeIn(2000);
     $("#nav").click(function(){
-    $(".navLong").slideToggle("slow");
+    $(".navLong").slideToggle(500);
     });
     $("#weixin").click(function(){
     $(".endweixin").slideToggle();
